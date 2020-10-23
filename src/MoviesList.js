@@ -8,6 +8,7 @@ const MoviesList = (props) => {
             {props.movies.map(movie=>
                 <MovieCard movie={movie}/>
                 )}
+                
     
         </div>
     )

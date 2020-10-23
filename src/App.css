@@ -3,7 +3,7 @@
 }*/
 
 
-/*.App-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -13,7 +13,7 @@
   
   color: white;
 }
-*/
+
 .App {
 background-color: #282c34;;
   min-height:100vh;
@@ -95,3 +95,17 @@ background-color: #282c34;;
       height:450px;
     }
   } 
+  .btnbtn {
+    padding:10px;
+    margin:20px;
+    border-radius:10px;
+    outline: none;
+    background:transparent;
+    border:3px solid #fff;
+    color:#ddd
+  }
+  .img {
+    width:150px;
+    display: block;
+    margin:5px auto
+  }

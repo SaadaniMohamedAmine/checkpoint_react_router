@@ -4,10 +4,19 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './Home'
+import Details from './Details'
+import {Route,BrowserRouter as Router} from 'react-router-dom'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   
+   <Router>
+     <Route exact path="/" component={Home} />
+     <Route  path='/moviesList' render={()=><App />} />
+     
+   </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
